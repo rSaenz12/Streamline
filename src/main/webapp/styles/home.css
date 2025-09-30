@@ -1,0 +1,124 @@
+@charset "UTF-8";
+
+.body {
+	background-color: var(--background-color);
+}
+
+.account-button-container {
+	display: flex;
+	position: absolute;
+	margin-top: 10px;
+	right: 10px;
+	top: 0px;
+}
+
+.hello-message {
+	color: var(--secondary-color);
+	font-family: kg-miss-kindy;
+	font-size: 24px;
+	margin-top:0;
+	margin-right: 10px;
+}
+
+input[type=submit]{
+	background-color: var(--primary-color);
+	font-family:kg-miss-kindy;
+	font-size: 18px;
+	border-radius: var(--button-radius);
+	border: none;
+	padding: 5px 10px;
+}
+
+input[type=submit]:hover{
+	background-color: var(--hover-color);
+}
+
+.login-button {
+	margin-right: 5px;
+}
+
+.logout-button{
+	margin-right: 5px;
+}  
+
+.watched-played-button{
+	margin-right: 5px;
+}
+
+.header-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 256px;
+	width: 50em;
+	height: 150px;
+}
+
+.header{
+	color: var(--secondary-color);
+	font-family: kg-miss-kindy;
+	font-size: 40px;
+	text-align: center;
+}
+
+.title{
+	color: var(--secondary-color);
+	font-family: akira-expanded;
+	font-size: 80px;
+	text-align: center;
+}
+
+.search-block{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: auto;
+	width: 50%;
+}
+
+.search-input-block{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.search-bar {
+	font-family: kg-miss-kindy;
+	font-size: 18px;
+	padding: 3px;
+	margin-right: 4px;
+}
+
+.sort-and-filter-block{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sort-menu {
+	font-family: kg-miss-kindy;
+	font-size: 14px;
+	margin-top: 4px;
+	margin-right: 4px;
+}
+
+.type-menu {
+	font-family: kg-miss-kindy;
+	font-size: 14px;
+	margin-top: 4px;
+}
+
+.or-text {
+	font-family: kg-miss-kindy;
+	font-size: 30px;
+	color: var(--secondary-color);
+	text-align: center;
+}
+
+.recommendations-block {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

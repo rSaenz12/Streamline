@@ -1,0 +1,19 @@
+@charset "UTF-8";
+:root{
+	--background-color: #282129;
+	--primary-color: #d049ff;
+	--secondary-color: #ffffff;
+	--hover-color: #e391ff;
+	--border-color: #5b2270;
+	--button-radius: 4px;
+}
+
+@font-face {
+	font-family: kg-miss-kindy;
+	src: url(KGMissKindyChunky.ttf);
+}
+
+@font-face {
+	font-family: akira-expanded;
+	src: url(Akira-Expanded-Demo.otf);
+}
