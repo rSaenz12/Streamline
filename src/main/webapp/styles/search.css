@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+input[type=submit]{
+	background-color: var(--primary-color);
+	font-family:kg-miss-kindy;
+	font-size: 18px;
+	border-radius: var(--button-radius);
+	border: none;
+	padding: 5px 10px;
+}
+
+input[type=submit]:hover{
+	background-color: var(--hover-color);
+}
+
+.body{
+	background-color: var(--background-color);
+}
+
+.return-to-homepage-block{
+	position: absolute; 
+  	top: 20px;
+ 	right: 20px; 
+}
+
+h1 {
+	font-family: kg-miss-kindy;
+	font-size: 30px;
+	color: var(--secondary-color);
+	margin-left: 10px;
+	white-space: nowrap;
+}
+
+.header-block{
+	margin: auto;
+	padding-left: 10px;
+	position: relative;
+	min-width: 1000px;
+}
+
+.search-input-block{
+	display: inline-block;
+}
+
+.sort-and-type-block{
+	display: inline-block;
+}
+
+.search-bar {
+	font-family: kg-miss-kindy;
+	font-size: 18px;
+	padding: 3px;
+	margin-right: 4px;
+}
+
+.sort-menu {
+	font-family: kg-miss-kindy;
+	font-size: 18px;
+	padding: 3px;
+	margin-right: 4px;
+	margin-left: 64px;
+}
+
+.type-menu {
+	font-family: kg-miss-kindy;
+	font-size: 18px;
+	padding: 3px;
+}
+
+.media-block {
+	border: 1px solid var(--border-color);
+	background-image: linear-gradient(to bottom right, #261c29, rgb(40, 32, 45));
+	margin-top: 8px;
+	width: 90%;
+	min-width: 1000px;
+	height: 128px;
+	position: relative;
+}
+
+.media-poster-block {
+	display: inline-flex;
+	justify-content: center;
+	height: 128px;
+	width: 90px;
+	background-color: #1d1520;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.media-poster {
+	max-height: 128px;
+	max-width: 90px;
+	vertical-align: middle;
+	margin: auto;
+}
+
+.column-block {
+	display: inline-block;
+	height: 128px;
+	width: 450px;
+	vertical-align: top;
+}
+
+.top-row-block {
+	margin-left: 8px;
+	margin-top: 8px;
+	margin-bottom: 16px;
+}
+
+.bottom-row-block {
+	margin-left: 8px;
+	margin-bottom: 8px;
+}
+
+.double-row-block {
+	margin-left: 8px;
+	margin-top: 8px;
+}
+
+.title-block {
+	height: 48px;
+	white-space: nowrap;
+}
+
+.genre-block {
+	height: 48px;
+	white-space: nowrap;
+}
+
+.media-parameter-label {
+	font-family: kg-miss-kindy;
+	color: var(--secondary-color);
+	font-size: 14px;
+}
+
+.media-parameter-value {
+	font-family: kg-miss-kindy;
+	color: var(--secondary-color);
+	font-size: 18px;
+}
